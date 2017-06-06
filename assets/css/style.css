@@ -14,7 +14,7 @@ body {
 .jumbotron {
   padding: 16px 0;
   background-color:#64dd17;
-  color: #212121;
+  color: black;
   box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
 }
 
@@ -40,11 +40,13 @@ a:hover {
 .card-content-1 li {
   font-size: 16px;
   line-height: 1.5
+  color: white !important;
 }
 
 .card-title {
   font-weight: 400;
   margin: 0;
+  color: white !important;
 }
 
 .card-title a {
@@ -114,6 +116,7 @@ a:hover {
 .card {
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
   background-color: #424242;
+  color: white !important;
   margin-bottom: 20px;
   word-wrap: break-word;
 }
