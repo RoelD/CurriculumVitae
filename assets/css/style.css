@@ -68,7 +68,7 @@ a:hover {
   transition: box-shadow 0.4s ease-out;
 }
 .navbar-transparent {
-  background: white !important;
+  background: #212121 !important;
   color: #64dd17 !important;
   padding-top: 10px !important;
 }
