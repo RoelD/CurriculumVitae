@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <h2>{{ page.title }}</h2>
+      <h5>Geschreven op {{ page.date | date: "%B %e, %Y" }} {% if page.author %} door {{ page.author }} {% endif %}</h5>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-content-1">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>
