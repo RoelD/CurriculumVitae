@@ -1,5 +1,5 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #303030;
   padding-top: 70px;
   display: flex;
   min-height: 100vh;
@@ -13,8 +13,8 @@ body {
 
 .jumbotron {
   padding: 16px 0;
-  background-color:blue;
-  color: white;
+  background-color:#64dd17;
+  color: #212121;
   box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
 }
 
