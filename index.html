@@ -10,19 +10,17 @@ layout: default
 
 <div class="container-fluid">
 <div class="col-sm-6">
-<h2><b><img src="{{ site.baseurl }}/images/logos/dmjlogos.png">  DMJ16 Nieuws</b></h2>
-  {% for post in site.categories.nieuws %}
+<h2>Personalia</h2>
   <div class="card">
     <div class="card-content-1">
-      <h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.content | truncatewords: 50 }}</p>
-      <p class="index"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}{% if post.author %} <i class="fa fa-user-o fa-fw" aria-hidden="true"></i> {{ post.author }}{% endif %}</p>
-    </div>
-    <div class="card-button">
-      <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-cv">Lees meer</a>
+      Naam: Roel Deckers
     </div>
   </div>
-  {% endfor %}
+  <div class="card">
+    <div class="card-content-1">
+      Adres: Bachstraat 41, 6438KL Oirsbeek
+    </div>
+  </div>
 </div>
 <div class="col-sm-6">
 <h2><b><img src="{{ site.baseurl }}/images/logos/knvb.png">  KNVB Nieuws</b></h2>
