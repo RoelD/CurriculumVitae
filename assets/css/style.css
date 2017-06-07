@@ -14,17 +14,16 @@ body {
 
 .jumbotron {
   padding: 16px 0;
-  background-color:#64dd17;
+  background-color: #64dd17;
   color: black;
-  box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.16), 0 5px 8px rgba(0, 0, 0, 0.23);
 }
 
 .jumbotron p {
   font-size: 12px !important;
 }
 
-p,
-li {
+p, li {
   font-size: 14px;
   line-height: 1.5;
 }
@@ -38,11 +37,9 @@ a:hover {
   color: white !important;
 }
 
-.card-content-1 p,
-.card-content-1 li {
+.card-content-1 p, .card-content-1 li {
   font-size: 16px;
-  line-height: 1.5
-  color: white !important;
+  line-height: 1.5 color: white !important;
 }
 
 .card-title {
@@ -71,6 +68,7 @@ a:hover {
 .navbar {
   transition: box-shadow 0.4s ease-out;
 }
+
 .navbar-transparent {
   background: #212121 !important;
   color: #64dd17 !important;
@@ -78,7 +76,7 @@ a:hover {
 }
 
 .navbar-shadow {
-  box-shadow: 0 8px 13px rgba(0,0,0,.4) !important;
+  box-shadow: 0 8px 13px rgba(0, 0, 0, .4) !important;
 }
 
 .nav li {
@@ -90,9 +88,7 @@ a:hover {
   border-radius: 2px;
 }
 
-.navbar .navbar-nav > .active > a,
-.navbar .navbar-nav > .active > a:hover,
-.navbar .navbar-nav > .active > a:focus {
+.navbar .navbar-nav>.active>a, .navbar .navbar-nav>.active>a:hover, .navbar .navbar-nav>.active>a:focus {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
@@ -107,16 +103,16 @@ a:hover {
 
 .btn-cv {
   background-color: #64dd17;
-  color: black; 
+  color: black;
 }
 
 .alert-cv {
-    background-color: #64dd17;
-    color: black !important; 
+  background-color: #64dd17;
+  color: black !important;
 }
 
 .card {
-  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
   background-color: #424242;
   color: white !important;
   margin-bottom: 20px;
@@ -133,7 +129,7 @@ a:hover {
 
 .card-button {
   padding: 0 7px;
-  border-top: 1px solid rgba(0,0,0,0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .card-button .btn {
@@ -162,7 +158,7 @@ a:hover {
 
 .footer {
   width: 100%;
-  box-shadow: 0 6px 9px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.3);
   background-color: #212121;
   color: white !important;
 }
@@ -180,22 +176,17 @@ a:hover {
   .post h1 {
     font-size: 2.5em;
   }
-
-  .footer-icons,
-  .footer {
+  .footer-icons, .footer {
     text-align: center;
     color: #64dd17;
     float: none
   }
-
   .container.post {
     padding: 0;
   }
-
   .container.post .card {
     border-radius: 0;
   }
-
   .card-content-1 {
     padding: 15px 10px;
   }
