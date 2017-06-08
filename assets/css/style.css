@@ -14,7 +14,7 @@ body {
 
 .jumbotron {
   padding: 16px 0;
-  background-color:#64dd17;
+  background-color:red;
   color: black;
   box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
 }
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .card-title a:hover {
-  color: #64dd17 !important;
+  color: red !important;
 }
 
 .card h6 {
@@ -73,7 +73,7 @@ a:hover {
 }
 .navbar-transparent {
   background: #212121 !important;
-  color: #64dd17 !important;
+  color: red !important;
   padding-top: 10px !important;
 }
 
@@ -102,17 +102,17 @@ a:hover {
 }
 
 .icon-bar {
-  color: #64dd17;
+  color: red;
 }
 
 .btn-cv {
-  background-color: #64dd17;
-  color: black; 
+  background-color: red;
+  color: black;
 }
 
 .alert-cv {
-    background-color: #64dd17;
-    color: black !important; 
+    background-color: red;
+    color: black !important;
 }
 
 .card {
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .footer-icons {
-  color: #64dd17 !important;
+  color: red !important;
   padding-top: 14px;
   padding-bottom: 14px;
   font-size: 32px;
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .fa:hover {
-  color: #64dd17;
+  color: red;
 }
 
 .footer {
@@ -184,7 +184,7 @@ a:hover {
   .footer-icons,
   .footer {
     text-align: center;
-    color: #64dd17;
+    color: red;
     float: none
   }
 
