@@ -48,7 +48,7 @@ a:hover {
 .card-title {
   font-weight: 400;
   margin: 0;
-  color: white !important;
+  color: red !important;
 }
 
 .card-title a {
