@@ -15,7 +15,7 @@ body {
 .jumbotron {
   padding: 16px 0;
   background-color:red;
-  color: black;
+  color: white;
   box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
 }
 
