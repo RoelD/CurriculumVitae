@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Demo met team indeling</title>
+
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://dexels.github.io/navajofeeds-json-parser/js/dist/feed-0.0.1.js"></script>
+		<script>
+		feed.init({
+			clientId: "xxxxxxx",
+
+		});
+		</script>
+		<style>
+					img {
+				width: 100px;
+				height:100px;
+			}
+		</style>
+
+	</head>
+	<body>
+	<center>
+	Welkom op de website van:
+	<div 
+		data-article="clublogo"
+	data-fields="gegevens.logo" 
+	></div> 
+	<div 
+	data-article="teams"
+	data-param-gebruiklokaleteamgegevens="NEE"
+	data-link-more="team-indeling.html"
+	data-fields="poulecode,teamcode,lokaleteamcode,teamnaam,geslacht,competitienaam,competitiesoort,leeftijdscategorie,kalespelsoort,speeldag,speeldagteam,klasse,poule,more" 
+	></div> 
+	</center>
+
+
+	</body>
+</html>
