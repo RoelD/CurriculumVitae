@@ -14,7 +14,7 @@ body {
 
 .jumbotron {
   padding: 16px 0;
-  background-color:#b71c1c;
+  background-color:#7f0000;
   color: white;
   box-shadow: 0 7px 10px rgba(0,0,0,0.16), 0 5px 8px rgba(0,0,0,0.23);
 }
@@ -72,8 +72,8 @@ a:hover {
   transition: box-shadow 0.4s ease-out;
 }
 .navbar-transparent {
-  background: #7f0000 !important;
-  color: #white !important;
+  background: #212121 !important;
+  color: #b71c1c !important;
   padding-top: 10px !important;
 }
 
@@ -117,7 +117,7 @@ a:hover {
 
 .card {
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
-  background-color: #757575;
+  background-color: #616161;
   color: white !important;
   margin-bottom: 20px;
   word-wrap: break-word;
